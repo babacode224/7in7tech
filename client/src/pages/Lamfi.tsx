@@ -107,7 +107,7 @@ export default function Lamfi() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative pt-48 pb-20 overflow-hidden">
+      <section className="relative pt-28 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src={heroImageUrl}

@@ -19,7 +19,7 @@ export default function Navigation() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-b border-border">
-      <div className="container flex items-center justify-between h-40">
+      <div className="container flex items-center justify-between h-20">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           <motion.img 
@@ -28,7 +28,7 @@ export default function Navigation() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             src="/logo.png" 
             alt="7to7 Tech Hub Logo" 
-            className="w-40 h-40 object-contain rounded-md"
+            className="w-20 h-20 object-contain rounded-md"
             onError={(e) => {
               // Fallback to text if the user hasn't placed the logo yet
               e.currentTarget.style.display = 'none';
