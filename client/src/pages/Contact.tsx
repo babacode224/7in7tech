@@ -22,7 +22,7 @@ export default function Contact() {
       <Navigation />
 
       {/* Header */}
-      <section className="pt-24 pb-12 border-b border-border">
+      <section className="pt-48 pb-12 border-b border-border">
         <motion.div 
           className="container"
           initial="hidden"

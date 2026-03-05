@@ -38,7 +38,7 @@ export default function About() {
       <Navigation />
 
       {/* Page Header */}
-      <section className="pt-24 pb-12 border-b border-border overflow-hidden">
+      <section className="pt-48 pb-12 border-b border-border overflow-hidden">
         <motion.div 
           className="container"
           initial="hidden"
