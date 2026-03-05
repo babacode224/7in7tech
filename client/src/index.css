@@ -43,111 +43,116 @@
 }
 
 :root {
-  --primary: #00BCD4;
-  --primary-foreground: #0F2B3C;
-  --sidebar-primary: #00BCD4;
-  --sidebar-primary-foreground: #0F2B3C;
-  --chart-1: #00BCD4;
-  --chart-2: #00D4FF;
-  --chart-3: #0097A7;
-  --chart-4: #00838F;
+  --primary: #00bcd4;
+  --primary-foreground: #0f2b3c;
+  --sidebar-primary: #00bcd4;
+  --sidebar-primary-foreground: #0f2b3c;
+  --chart-1: #00bcd4;
+  --chart-2: #00d4ff;
+  --chart-3: #0097a7;
+  --chart-4: #00838f;
   --chart-5: #006064;
   --radius: 0.65rem;
-  --background: #0F2B3C;
-  --foreground: #F5F5F5;
-  --card: #1A3A47;
-  --card-foreground: #F5F5F5;
-  --popover: #1A3A47;
-  --popover-foreground: #F5F5F5;
-  --secondary: #4A5A6A;
-  --secondary-foreground: #E0E0E0;
-  --muted: #2A4A5A;
-  --muted-foreground: #B0B0B0;
-  --accent: #00BCD4;
-  --accent-foreground: #0F2B3C;
-  --destructive: #FF5252;
-  --destructive-foreground: #FFFFFF;
-  --border: #2A4A5A;
-  --input: #1A3A47;
-  --ring: #00BCD4;
-  --sidebar: #1A3A47;
-  --sidebar-foreground: #F5F5F5;
-  --sidebar-accent: #00BCD4;
-  --sidebar-accent-foreground: #0F2B3C;
-  --sidebar-border: #2A4A5A;
-  --sidebar-ring: #00BCD4;
+  --background: #0f2b3c;
+  --foreground: #f5f5f5;
+  --card: #1a3a47;
+  --card-foreground: #f5f5f5;
+  --popover: #1a3a47;
+  --popover-foreground: #f5f5f5;
+  --secondary: #4a5a6a;
+  --secondary-foreground: #e0e0e0;
+  --muted: #2a4a5a;
+  --muted-foreground: #b0b0b0;
+  --accent: #00bcd4;
+  --accent-foreground: #0f2b3c;
+  --destructive: #ff5252;
+  --destructive-foreground: #ffffff;
+  --border: #2a4a5a;
+  --input: #1a3a47;
+  --ring: #00bcd4;
+  --sidebar: #1a3a47;
+  --sidebar-foreground: #f5f5f5;
+  --sidebar-accent: #00bcd4;
+  --sidebar-accent-foreground: #0f2b3c;
+  --sidebar-border: #2a4a5a;
+  --sidebar-ring: #00bcd4;
 }
 
 .dark {
-  --primary: #00BCD4;
-  --primary-foreground: #0F2B3C;
-  --sidebar-primary: #00BCD4;
-  --sidebar-primary-foreground: #0F2B3C;
-  --background: #0F2B3C;
-  --foreground: #F5F5F5;
-  --card: #1A3A47;
-  --card-foreground: #F5F5F5;
-  --popover: #1A3A47;
-  --popover-foreground: #F5F5F5;
-  --secondary: #4A5A6A;
-  --secondary-foreground: #E0E0E0;
-  --muted: #2A4A5A;
-  --muted-foreground: #B0B0B0;
-  --accent: #00BCD4;
-  --accent-foreground: #0F2B3C;
-  --destructive: #FF5252;
-  --destructive-foreground: #FFFFFF;
-  --border: #2A4A5A;
-  --input: #1A3A47;
-  --ring: #00BCD4;
-  --chart-1: #00BCD4;
-  --chart-2: #00D4FF;
-  --chart-3: #0097A7;
-  --chart-4: #00838F;
+  --primary: #00bcd4;
+  --primary-foreground: #0f2b3c;
+  --sidebar-primary: #00bcd4;
+  --sidebar-primary-foreground: #0f2b3c;
+  --background: #0f2b3c;
+  --foreground: #f5f5f5;
+  --card: #1a3a47;
+  --card-foreground: #f5f5f5;
+  --popover: #1a3a47;
+  --popover-foreground: #f5f5f5;
+  --secondary: #4a5a6a;
+  --secondary-foreground: #e0e0e0;
+  --muted: #2a4a5a;
+  --muted-foreground: #b0b0b0;
+  --accent: #00bcd4;
+  --accent-foreground: #0f2b3c;
+  --destructive: #ff5252;
+  --destructive-foreground: #ffffff;
+  --border: #2a4a5a;
+  --input: #1a3a47;
+  --ring: #00bcd4;
+  --chart-1: #00bcd4;
+  --chart-2: #00d4ff;
+  --chart-3: #0097a7;
+  --chart-4: #00838f;
   --chart-5: #006064;
-  --sidebar: #1A3A47;
-  --sidebar-foreground: #F5F5F5;
-  --sidebar-accent: #00BCD4;
-  --sidebar-accent-foreground: #0F2B3C;
-  --sidebar-border: #2A4A5A;
-  --sidebar-ring: #00BCD4;
+  --sidebar: #1a3a47;
+  --sidebar-foreground: #f5f5f5;
+  --sidebar-accent: #00bcd4;
+  --sidebar-accent-foreground: #0f2b3c;
+  --sidebar-border: #2a4a5a;
+  --sidebar-ring: #00bcd4;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
-  
+
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
   }
-  
+
   h1 {
     @apply text-5xl md:text-6xl font-bold tracking-tight;
   }
-  
+
   h2 {
     @apply text-4xl md:text-5xl font-bold;
   }
-  
+
   h3 {
     @apply text-2xl md:text-3xl font-semibold;
   }
-  
+
   h4 {
     @apply text-xl md:text-2xl font-semibold;
   }
-  
+
   p {
     @apply text-base leading-relaxed;
   }
-  
+
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
   [type="button"]:not(:disabled),
@@ -190,7 +195,7 @@
     }
   }
 
-  /* Custom utility classes for 7in7 design */
+  /* Custom utility classes for 7to7 design */
   .cyan-accent {
     @apply text-accent;
   }

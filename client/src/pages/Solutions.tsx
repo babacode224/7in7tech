@@ -80,7 +80,7 @@ export default function Solutions() {
                 Driving Impact Across <span className="text-accent">Key Sectors</span>
               </h1>
               <p className="text-lg text-foreground/70 mb-8 leading-relaxed">
-                7in7 Tech Hub deploys its expertise across the most critical pillars of African development, building the infrastructure for a modern, digital Africa.
+                7to7 Tech Hub deploys its expertise across the most critical pillars of African development, building the infrastructure for a modern, digital Africa.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="px-6 py-3 rounded-lg font-semibold bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">

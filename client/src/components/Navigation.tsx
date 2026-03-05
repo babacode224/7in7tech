@@ -19,7 +19,7 @@ export default function Navigation() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-b border-border">
-      <div className="container flex items-center justify-between h-16">
+      <div className="container flex items-center justify-between py-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           <motion.img 
@@ -27,8 +27,8 @@ export default function Navigation() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
             src="/logo.png" 
-            alt="7in7 Tech Hub Logo" 
-            className="w-14 h-14 object-contain rounded-md"
+            alt="7to7 Tech Hub Logo" 
+            className="w-40 h-40 object-contain rounded-md"
             onError={(e) => {
               // Fallback to text if the user hasn't placed the logo yet
               e.currentTarget.style.display = 'none';
@@ -36,12 +36,12 @@ export default function Navigation() {
               if (fallback) fallback.style.display = 'flex';
             }}
           />
-          <span className="font-bold text-xl hidden sm:inline-block">7in7 Tech Hub</span>
+          <span className="font-bold text-xl hidden sm:inline-block">7to7 Tech Hub</span>
           <div id="logo-fallback" className="hidden items-center gap-2 font-bold text-xl text-accent">
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
               <span className="text-background font-black">7</span>
             </div>
-            <span>7in7 Tech Hub</span>
+            <span>7to7 Tech Hub</span>
           </div>
         </a>
 

@@ -47,7 +47,7 @@ export default function About() {
         >
           <motion.h1 variants={fadeUp} className="text-5xl md:text-6xl font-bold mb-6">About Us</motion.h1>
           <motion.p variants={fadeUp} className="text-lg text-foreground/70 max-w-3xl">
-            7in7 Tech Hub is a globally recognized innovation centre that has been the main catalyst for regional technology acceleration. We empower local talent and bridge the gap in the global technology ecosystem through sustainable innovation.
+            7to7 Tech Hub is a globally recognized innovation centre that has been the main catalyst for regional technology acceleration. We empower local talent and bridge the gap in the global technology ecosystem through sustainable innovation.
           </motion.p>
         </motion.div>
       </section>
@@ -116,7 +116,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-foreground/70 leading-relaxed mb-8">
-                While global technology often assumes high-bandwidth environments and Western consumer behaviors, 7in7 Tech Hub operates on the ground. We identify systemic friction points in African society and apply lean, robust, and intelligent technology to resolve them.
+                While global technology often assumes high-bandwidth environments and Western consumer behaviors, 7to7 Tech Hub operates on the ground. We identify systemic friction points in African society and apply lean, robust, and intelligent technology to resolve them.
               </p>
 
               <div className="mb-8">
@@ -136,7 +136,7 @@ export default function About() {
                   <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
                     <Zap className="w-5 h-5 text-accent" />
                   </div>
-                  <h3 className="text-2xl font-semibold text-accent">The 7in7 Approach</h3>
+                  <h3 className="text-2xl font-semibold text-accent">The 7to7 Approach</h3>
                 </div>
                 <p className="text-foreground/70 leading-relaxed">
                   We flip the script. Instead of forcing global models onto local markets, we use our 7-pillar framework to build self-sustaining tech ecosystems from the ground up, ensuring that innovation stays and grows locally.

@@ -27,7 +27,7 @@ export default function Home() {
   
   const africaMapUrl = 'https://private-us-east-1.manuscdn.com/sessionFile/ms0jJe3PHhgc2nX8prAW1a/sandbox/R5CQJKqI2GHsNAPnGkyoE6-img-5_1771937784000_na1fn_YWZyaWNhLW1hcC1hY2NlbnQ.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbXMwakplM1BIaGdjMm5YOHByQVcxYS9zYW5kYm94L1I1Q1FKS3FJMkdIc05BUG5Ha3lvRTYtaW1nLTVfMTc3MTkzNzc4NDAwMF9uYTFmbl9ZV1p5YVdOaExXMWhjQzFoWTJObGJuUS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=pMNIjdL6C5JrYfi3EXKdcOUaDl-8m0Lx4giYKXazyzcUdJ9GfbmscyRcukA95KtdWLsdmq4SkPmmn-VRDzSagqWLajjCrvCs02D4Des0Ea~2ftiQO6kWYcbO5ETsZdTkDi81PqJSebpjudwbPQehwmFVDJHjFFMrybAUO~9S4WBWXxs4Nll~Z3f4Hz5HpG6FfGJy6BQCwc3MXxbR-U2B1FxrgwdHT-nrrtnUh0~ZIzZ-sBqpH8CryiGQn4Rvvr3fp~CtlZYwBq2wQHe7G2LJEKsB2ywbNPymSOcNP2XnIA6uuIt-svJrvs9RPbmVRQpsjbuB73sP8Un~dy-SVC2T5g__';
 
-  // 7in7 Approach - 4 Steps
+  // 7to7 Approach - 4 Steps
   const approach = [
     { 
       number: '01',
@@ -88,7 +88,7 @@ export default function Home() {
   // Testimonials
   const testimonials = [
     {
-      quote: '7in7 Tech Hub transformed how we approach healthcare delivery in rural areas. Their telemedicine solution has reached over 5,000 patients in the past year alone.',
+      quote: '7to7 Tech Hub transformed how we approach healthcare delivery in rural areas. Their telemedicine solution has reached over 5,000 patients in the past year alone.',
       author: 'Dr. Amara Okonkwo',
       title: 'Healthcare Director, East Africa'
     },
@@ -98,7 +98,7 @@ export default function Home() {
       title: 'CEO, Market Solutions Ltd'
     },
     {
-      quote: 'Working with 7in7 on our agricultural data platform was game-changing. Farmers now have real-time insights to optimize their yields and reduce waste.',
+      quote: 'Working with 7to7 on our agricultural data platform was game-changing. Farmers now have real-time insights to optimize their yields and reduce waste.',
       author: 'Zainab Hassan',
       title: 'Founder, AgriConnect Kenya'
     },
@@ -124,7 +124,7 @@ export default function Home() {
     {
       name: 'James Kipchoge',
       role: 'Head of Partnerships',
-      bio: 'Strategic relationship builder connecting 7in7 with key stakeholders across the continent.'
+      bio: 'Strategic relationship builder connecting 7to7 with key stakeholders across the continent.'
     },
   ];
 
@@ -186,7 +186,7 @@ export default function Home() {
                 Re-engineering the <span className="text-accent">African Experience</span>
               </h2>
               <p className="text-foreground/70 mb-6 leading-relaxed">
-                7in7 Tech Hub Limited is a mission-driven technology powerhouse dedicated to re-engineering the African experience through high-impact, localized digital solutions. We specialize in the development of advanced software, Artificial Intelligence (AI), and hybrid technical frameworks designed specifically for the "common African user."
+                7to7 Tech Hub Limited is a mission-driven technology powerhouse dedicated to re-engineering the African experience through high-impact, localized digital solutions. We specialize in the development of advanced software, Artificial Intelligence (AI), and hybrid technical frameworks designed specifically for the "common African user."
               </p>
               
               <div className="bg-accent/10 border border-accent/20 rounded-lg p-6 mb-8">
@@ -196,7 +196,7 @@ export default function Home() {
               </div>
 
               <p className="text-foreground/70 mb-8 leading-relaxed">
-                While global technology often assumes high-bandwidth environments and Western consumer behaviors, 7in7 Tech Hub operates on the ground. We identify systemic friction points in African society and apply lean, robust, and intelligent technology to resolve them.
+                While global technology often assumes high-bandwidth environments and Western consumer behaviors, 7to7 Tech Hub operates on the ground. We identify systemic friction points in African society and apply lean, robust, and intelligent technology to resolve them.
               </p>
             </div>
             <div className="relative min-h-[400px] h-full rounded-xl overflow-hidden aspect-square md:aspect-auto">
@@ -208,14 +208,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The 7in7 Approach Section */}
+      {/* The 7to7 Approach Section */}
       <section className="py-20">
         <div className="container">
           <div className="text-center mb-16">
             <div className="flex justify-center mb-6">
               <div className="accent-line"></div>
             </div>
-            <h2 className="section-title">The 7in7 Approach</h2>
+            <h2 className="section-title">The 7to7 Approach</h2>
             <p className="text-muted-foreground text-lg">From Idea to Scalable Execution</p>
           </div>
 
@@ -242,7 +242,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="section-title">Driving Impact Across Key Sectors</h2>
-            <p className="text-muted-foreground">7in7 Tech Hub deploys its expertise across the most critical pillars of African development, building the infrastructure for a modern, digital Africa.</p>
+            <p className="text-muted-foreground">7to7 Tech Hub deploys its expertise across the most critical pillars of African development, building the infrastructure for a modern, digital Africa.</p>
           </div>
 
           <motion.div 
@@ -320,7 +320,7 @@ export default function Home() {
             <p className="text-3xl md:text-4xl font-bold mb-6 italic">
               "The brilliance of Africa lies in its resilience. Our technology is simply the mirror that reflects and amplifies that brilliance to the world."
             </p>
-            <p className="text-accent font-semibold mb-8">— 7in7 Tech Hub</p>
+            <p className="text-accent font-semibold mb-8">— 7to7 Tech Hub</p>
           </div>
         </div>
       </section>

@@ -57,8 +57,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-2">Email</h3>
-                    <a href="mailto:hello@7in7.tech" className="text-foreground/70 hover:text-accent transition-colors">
-                      hello@7in7.tech
+                    <a href="mailto:hello@7to7.tech" className="text-foreground/70 hover:text-accent transition-colors">
+                      hello@7to7.tech
                     </a>
                   </div>
                 </div>

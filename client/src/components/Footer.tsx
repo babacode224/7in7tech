@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
                 <span className="text-background font-black">7</span>
               </div>
-              <span className="font-bold text-lg">7in7</span>
+              <span className="font-bold text-lg">7to7</span>
             </div>
             <p className="text-sm text-muted-foreground mb-6">
               Empowering African innovation through deep technical expertise and strategic development frameworks.
@@ -97,8 +97,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-accent flex-shrink-0" />
-                <a href="mailto:hello@7in7.tech" className="text-sm text-muted-foreground hover:text-accent transition-colors">
-                  hello@7in7.tech
+                <a href="mailto:hello@7to7.tech" className="text-sm text-muted-foreground hover:text-accent transition-colors">
+                  hello@7to7.tech
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -114,7 +114,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} 7in7 Tech Hub. All rights reserved.
+            © {currentYear} 7to7 Tech Hub. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-accent transition-colors">
